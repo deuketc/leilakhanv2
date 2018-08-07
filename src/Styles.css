@@ -1,0 +1,182 @@
+/**********************************
+        RESET CSS
+**********************************/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: 'Lora', serif;
+  position: relative;
+  min-height: 100%;
+}
+/**********************************
+        App Header
+**********************************/
+.app-header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.app-header__inner-wrapper {
+  margin: 0 auto;
+}
+.app-header__logo {
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .app-header__logo {
+    float: left;
+    padding: 2rem;
+  }
+}
+.app-header__logo-link {
+  font-size: 1.125rem;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+.app-navigation {
+  border-bottom: 1px solid #ccc;
+}
+@media (min-width: 768px) {
+  .app-navigation {
+    border-bottom: 0;
+  }
+}
+.app-navigation__header {
+  display: none;
+}
+.app-navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .app-navigation__list {
+    float: right;
+    padding-top: 2rem;
+    display: block;
+  }
+}
+.app-navigation__list-item {
+  border-top: 1px solid #ccc;
+}
+@media (min-width: 768px) {
+  .app-navigation__list-item {
+    float: left;
+    margin-right: 2rem;
+    border: 0;
+  }
+}
+.app-navigation__list-item-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.125rem;
+  padding: 0.75rem 1.5rem;
+  display: block;
+}
+@media (min-width: 768px) {
+  .app-navigation__list-item-link {
+    padding: 0 0 4px 0;
+    position: relative;
+  }
+}
+@media (min-width: 768px) {
+  .app-navigation__list-item-link:hover::before {
+    transition: width 0.2s ease-out 0s;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .app-navigation__list-item-link::before {
+    background-color: #000;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    transition: width 0.2s ease-out 0s;
+    width: 0;
+  }
+}

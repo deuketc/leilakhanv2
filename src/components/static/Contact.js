@@ -18,11 +18,11 @@ const Contact = () => {
 
             <div>
                 <h2>Follow Me</h2>
-                <a target="_blank" href="https://www.facebook.com/LeilaKhan.NZ">Facebook</a><br />
-                <a target="_blank" href="https://www.instagram.com/ileilakhan/">Instagram</a><br />
-                <a target="_blank" href="https://twitter.com/Leila_Khan?lang=en">Twitter</a><br />
-                <a target="_blank" href="http://ileilakhan.tumblr.com/">Tumblr</a><br />
-                <a target="_blank" href="https://nz.pinterest.com/ileilakhan/">Pinterest</a><br />
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/LeilaKhan.NZ">Facebook</a><br />
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ileilakhan/">Instagram</a><br />
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Leila_Khan?lang=en">Twitter</a><br />
+                <a target="_blank" rel="noopener noreferrer" href="http://ileilakhan.tumblr.com/">Tumblr</a><br />
+                <a target="_blank" rel="noopener noreferrer" href="https://nz.pinterest.com/ileilakhan/">Pinterest</a><br />
             </div>
 
         </div>

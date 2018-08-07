@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="page-header">
-        <div className="inner-wrapper">
-            <div className="logo">
-                <Link to="/">Leila Khan</Link>
+    <header className="app-header">
+        <div className="app-header__inner-wrapper">
+            <div className="app-header__logo">
+                <Link className="app-header__logo-link" to="/">Leila Khan</Link>
             </div>
-            <nav className="headerNavigation">
-                <h4>Header Navigation</h4>
-                <ul className="headerNavMenuItems">
-                    <li><Link to="/wall">Wall</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
-                    <li><Link to="/gallery">Gallery</Link></li>
-                    <li><Link to="/kitchen">Kitchen</Link></li>
-                    <li><Link to="/about">About Me</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+            <nav className="app-navigation">
+                <h4 className="app-navigation__header">Header Navigation</h4>
+                <ul className="app-navigation__list">
+                    <li className="app-navigation__list-item"><Link className="app-navigation__list-item-link" to="/wall">Wall</Link></li>
+                    <li className="app-navigation__list-item"><Link className="app-navigation__list-item-link" to="/blog">Blog</Link></li>
+                    <li className="app-navigation__list-item"><Link className="app-navigation__list-item-link" to="/gallery">Gallery</Link></li>
+                    <li className="app-navigation__list-item"><Link className="app-navigation__list-item-link" to="/kitchen">Kitchen</Link></li>
+                    <li className="app-navigation__list-item"><Link className="app-navigation__list-item-link" to="/about">About Me</Link></li>
+                    <li className="app-navigation__list-item"><Link className="app-navigation__list-item-link" to="/contact">Contact</Link></li>
                 </ul>
             </nav>
         </div>

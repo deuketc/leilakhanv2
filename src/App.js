@@ -9,7 +9,7 @@ import Landing from './components/static/Landing';
 import Contact from './components/static/Contact';
 
 
-import './App.css';
+import './Styles.css';
 
 
 class App extends Component {
