@@ -14,7 +14,7 @@ const Footer = () => {
                 <li className="pinterest"><a target="_blank" rel="noopener noreferrer" href="https://nz.pinterest.com/ileilakhan/">Pinterest</a></li>
             </ul>
         </nav>
-        <p className="copyright">&copy; Leila Khan 2016. Created by <a rel="noopener noreferrer" target="_blank" href="http://charlesd.co.nz/">CharlesD</a></p>
+        <p className="copyright">&copy; Leila Khan {(new Date().getFullYear())}. Created by <a rel="noopener noreferrer" target="_blank" href="http://charlesd.co.nz/">CharlesD</a></p>
     </div>
 </footer>
   )

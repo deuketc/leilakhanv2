@@ -14,10 +14,13 @@ body { font-family: 'Lora', serif; position: relative; min-height: 100%; }
 **********************************/
 .app-header { background-color: #fff; position: fixed; top: 0; width: 100%; z-index: 1000;
   &__inner-wrapper { margin: 0 auto; }
+  &__toggle-btn { padding: 0; position: absolute; right: 1rem; top: 11px; display: block; text-indent: -9999px; background-color: #ccc; border: none; width: 32px; height: 32px; cursor: pointer; 
+    @media (min-width: 768px) { display: none; }
+  }
   &__logo { padding:1rem;
     @media (min-width: 768px) {	float:left; padding:2rem; } 
   }
-  &__logo-link { font-size: 1.125rem; display: block; text-decoration: none; color: #000;}
+  &__logo-link { font-size: 1.125rem; display: inline-block; text-decoration: none; color: #000;}
 }
 
 .app-navigation { border-bottom: 1px solid #ccc;

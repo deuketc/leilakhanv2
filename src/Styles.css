@@ -100,6 +100,24 @@ body {
 .app-header__inner-wrapper {
   margin: 0 auto;
 }
+.app-header__toggle-btn {
+  padding: 0;
+  position: absolute;
+  right: 1rem;
+  top: 11px;
+  display: block;
+  text-indent: -9999px;
+  background-color: #ccc;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .app-header__toggle-btn {
+    display: none;
+  }
+}
 .app-header__logo {
   padding: 1rem;
 }
@@ -111,7 +129,7 @@ body {
 }
 .app-header__logo-link {
   font-size: 1.125rem;
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #000;
 }
