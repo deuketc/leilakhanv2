@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
 
-    <div className="inner-wrapper">
+    <div className="section-inner-wrapper">
      
         <div>
             <h1>About Me</h1>

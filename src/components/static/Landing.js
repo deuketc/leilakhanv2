@@ -3,7 +3,7 @@ import React from 'react'
 const Landing = () => {
   return (
 
-    <div className="inner-wrapper">
+    <div className="section-inner-wrapper">
      
         <div>
             <h1>Landing</h1>

@@ -87,6 +87,25 @@ body {
   position: relative;
   min-height: 100%;
 }
+.INNER-WRAPPER {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-inner-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main.main {
+  display: block;
+  padding-top: 56px;
+}
+@media (min-width: 768px) {
+  main.main {
+    padding-top: 90px;
+  }
+}
 /**********************************
         App Header
 **********************************/
